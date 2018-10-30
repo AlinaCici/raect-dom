@@ -34,9 +34,14 @@ export default class Index extends Component {
 
   render () {
     return (
-      <div className="box">
-        <h2>第一个页面</h2>
-        <p>个人经历</p>
+      <div className="indexBox">
+        <div class="indexImg">
+          <img src={require('../../images/slider/slide1.jpg')} />
+          <img src={require('../../images/slider/slide2.jpg')} />
+        </div>
+        <div class="indexTop">
+          
+        </div>
       </div>
     )
   }
